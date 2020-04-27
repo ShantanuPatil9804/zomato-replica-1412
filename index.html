@@ -2,14 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>tomato replica</title>
+    <meta name="viewport" charset="UTF-8" content="width=device-width">
+    <title>zomato replica</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
     <header class="h-container">
-        <a id="get_the_app">Get the app</a>
+        <div>
+            <img src="images/get-the-app-plain.svg">
+            <a id="get_the_app">Get the app</a>
+        </div>
         <div>
             <ul>
                 <li><img src="images/order-online.svg" class="h-img">
@@ -21,19 +24,24 @@
             </ul>
         </div>
     </header>
-    <a id="log_in">log in</a>
+    <div class="u_log">
+        <a id="log_in">log in</a>
+        <a id="crt_acc">create an account</a>
+    </div>
     <section class="banner">
         <div class="search-restaurant">
             <img src="images/zomato_flat_bg_logo.svg" id="zologo">
             <p>Find the best restaurants, cafés, and bars in Mumbai</p>
-            <input type="text" placeholder="Search for restaurants or cuisines...">
-            <input type="button" id="search-btn" placeholder="Search">
+            <input type="text" id="search-rest" placeholder="Search for restaurants or cuisines...">
+            <input type="button" id="search-btn" value="Search">
         </div>
     </section>
     <div class="widget">
+        <h1>Order food online</h1>
+        <p>best restaurants delivering to your doorstep</p>
         <h4>Enter your delivery location</h4>
         <input class="search-del" type="text" placeholder="Type delivery location here">
-        <input class="order-btn" type="button" placeholder="Order Food Online!">
+        <input class="order-btn" type="button" value="Order Food Online!">
     </div>
     <p id="code">Use code ZOMATO to get up to 50% OFF. T&Cs apply.</p>
     <section class="categories">
@@ -122,7 +130,7 @@
                     <li><a>products for business</a></li>
                     </ul>
                 </div>
-            <div>Countries
+            <div class="Countries">Countries
                 <ul>
                     <li><a>australia</a></li>
                     <li><a>brazil</a></li>

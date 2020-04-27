@@ -1,0 +1,240 @@
+/* Add your css here */
+@media only screen and (orientation: portrait) {
+  body {
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .h-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .h-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .h-container img {
+    max-width: 1em;
+  }
+  body .u_log {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: relative;
+    top: 25px;
+    right: 5px;
+    color: white;
+  }
+  body .banner {
+    background-image: url("bg.jpg");
+    display: block;
+  }
+  body .banner .search-restaurant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .banner .search-restaurant #zologo {
+    height: 35vw;
+    margin-top: 10px;
+  }
+  body .banner .search-restaurant p {
+    color: white;
+    width: 90%;
+    margin-top: 6px;
+  }
+  body .banner .search-restaurant #search-rest {
+    width: 90%;
+    height: 2.5em;
+    margin-top: 6px;
+  }
+  body .banner .search-restaurant #search-btn {
+    width: 91%;
+    height: 2.5em;
+    color: white;
+    background-color: red;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  body .widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  body .widget h1 {
+    font-weight: bold;
+  }
+  body .widget p {
+    color: #666;
+  }
+  body .widget .search-del {
+    width: 96%;
+  }
+  body .widget .order-btn {
+    width: 97%;
+    color: white;
+    background-color: green;
+  }
+  body #code {
+    color: green;
+  }
+  body .categories {
+    background-color: #eee;
+  }
+  body .categories #cat-title {
+    font-weight: bold;
+  }
+  body .categories #cat-subtitle {
+    color: #666;
+  }
+  body .categories ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body .categories ul li {
+    max-width: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .categories ul li p {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body .localities {
+    background-color: #eee;
+  }
+  body .localities #loc-title {
+    font-weight: bold;
+  }
+  body .localities #loc-subtitle {
+    color: #666;
+  }
+  body .footer-wrapper {
+    background-color: #232338;
+    color: #999;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .footer-wrapper ul {
+    position: relative;
+    left: 10px;
+  }
+  body .footer-wrapper .Countries {
+    -ms-flex-item-align: bottom;
+        -ms-grid-row-align: bottom;
+        align-self: bottom;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  body .h-container {
+    max-height: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .h-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    list-style: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .h-container img {
+    max-width: 1em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

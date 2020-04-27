@@ -1,0 +1,20 @@
+.h-container div{
+    background-color: #666;
+    max-height: 5em;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: #999;
+    justify-content: space-around;
+}
+
+img{
+    max-width: 1em;
+}
+.banner{
+    background
+}
