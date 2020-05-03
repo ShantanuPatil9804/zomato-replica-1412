@@ -69,19 +69,24 @@
             display: flex;
             flex-direction: column;
             align-items: stretch;
+            padding: 10px;
             h1{
                 font-weight: bold;
+                padding: 10px;
             }
             p{
                 color: #666;
+                padding: 10px;
             }
             .search-del{
-                width: 96%;
+                width: 96%;            
+                padding-bottom: 10px;
             }
             .order-btn{
                 width: 97%;
                 color: white;
                 background-color: green;
+                padding-bottom: 10px;
             }
         }
         #code{
